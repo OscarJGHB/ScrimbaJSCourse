@@ -2,6 +2,28 @@ body{
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+.txt-fld{
+    color: #5f9341;
+}
+
+ul {
+    color: #5f9341;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 5px;
+}
+
+li {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+a {
+    color: #5f9341;
 }
 
 input {
@@ -21,3 +43,4 @@ button {
     color: white;
     font-weight: bolder;
 }
+
