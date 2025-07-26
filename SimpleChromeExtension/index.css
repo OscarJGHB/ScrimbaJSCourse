@@ -6,10 +6,6 @@ body{
     min-height: 400px;
 }
 
-.txt-fld{
-    color: #5f9341;
-}
-
 ul {
     color: #5f9341;
     list-style: none;
@@ -37,10 +33,26 @@ input {
 button {
     margin: 3px 0;
     padding: 10px 10px;
-    border: 2px #5f9341 solid;
     border-radius: 1px;
-    background-color: #5f9341;
-    color: white;
     font-weight: bolder;
+}
+
+.txt-fld{
+    color: #5f9341;
+}
+
+.txt-fld button{
+    border: 2px #5f9341 solid;
+}
+
+.txt-fld #input-btn{
+    color: white;
+    background-color: #5f9341;
+}
+
+.txt-fld #delete-btn{
+    color: #5f9341;
+    background-color: white;
+
 }
 
